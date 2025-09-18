@@ -2,7 +2,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "yourdockerhubuser/hello-world"
+        DOCKER_IMAGE = "manvithabhat/myapp"
     }
     stages {
         stage('Checkout') {
